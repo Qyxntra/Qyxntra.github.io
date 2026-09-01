@@ -1,0 +1,264 @@
+{
+  "profile": {
+    "name": "Qxyntra",
+    "codename": "B.M.P.",
+    "age": 14,
+    "class": "3ème 1",
+    "school": "Collège Olivier de Serres (ODS)",
+    "tagline": "The Mentalist — Esprit d'analyse, Développeur C++ & Futur Ingénieur Mécanicien",
+    "bio": "Élève de 14 ans en classe de 3ème 1 au Collège Olivier de Serres, connu sous le pseudonyme Qxyntra surnommé \"The Mentalist\". Passionné par deux univers : la mécanique automobile de pointe (moteurs, CAO, préparation) et la programmation bas niveau (C++, Win32, applications web utiles).",
+    "goal": "Devenir Ingénieur Mécanicien (Automobile, Moteurs & Technologies)",
+    "stats": [
+      {
+        "label": "Âge",
+        "value": "14 ans"
+      },
+      {
+        "label": "Classe",
+        "value": "3ème 1 (ODS)"
+      },
+      {
+        "label": "Projets",
+        "value": "Brevet Révision & QXR"
+      },
+      {
+        "label": "Objectif",
+        "value": "Ingénieur Mécanique"
+      }
+    ],
+    "alias": "The Mentalist (Le Mentaliste)",
+    "title": "Qxyntra • \"The Mentalist\" [BMP]",
+    "mentalist_definition": "Le Mentaliste : esprit d'observation affûté, analyse logique des systèmes, détection des mécanismes invisibles et déduction."
+  },
+  "creations": [
+    {
+      "id": "brevet-revision",
+      "title": "Brevet Révision ODS",
+      "category": "Web App / Éducation",
+      "badge": "Collège Olivier de Serres (3e1)",
+      "description": "Application web créée par Qxyntra pour réviser le Brevet des collèges entre élèves d'Olivier de Serres. Fiches de synthèse claires, quiz interactifs par matière et simulateur officiel des 800 points avec calcul direct des mentions.",
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "JSON"
+      ],
+      "link_label": "Tester les révisions ODS"
+    },
+    {
+      "id": "qxr-external",
+      "title": "QXR External (Roblox)",
+      "category": "Logiciel C++ / Reverse Engineering",
+      "badge": "Projet Système (14 ans)",
+      "description": "Outil external développé en C++ pour Roblox par Qxyntra (QXR = Qxyntra External Roblox). Fonctionne en lecture mémoire pure via l'API Windows sans injecter de DLL, ce qui évite les détections de Byfron/Hyperion.",
+      "tech": [
+        "C++",
+        "Windows API",
+        "Lecture Mémoire (Offsets)",
+        "Calculs WorldToScreen",
+        "Overlay DirectX"
+      ],
+      "link_label": "Détails techniques"
+    }
+  ],
+  "external_breakdown": {
+    "title": "Comment fonctionne QXR External ?",
+    "explanation": "La plupart des cheats amateurs injectent du code (DLL Injection) dans le jeu, ce qui se fait détecter et bannir instantanément par Byfron. QXR tourne dans un processus séparé : il lit les coordonnées des joueurs dans la RAM avec OpenProcess/ReadProcessMemory, calcule la position sur l'écran avec une matrice de vue 3D->2D (WorldToScreen), et dessine les boîtes ESP sur une fenêtre transparente par-dessus le jeu.",
+    "points": [
+      {
+        "title": "Lecture Mémoire (RAM)",
+        "desc": "Recherche des offsets et adresses en hexadécimal sans toucher aux fichiers du jeu."
+      },
+      {
+        "title": "Mathématiques 3D -> 2D",
+        "desc": "Calculs vectoriels et matrices pour projeter les coordonnées 3D (X, Y, Z) en pixels d'écran."
+      },
+      {
+        "title": "Overlay Indépendant",
+        "desc": "Fenêtre transparente dessinée en temps réel (144 FPS) sans ralentir le PC."
+      }
+    ]
+  },
+  "meca_dream": {
+    "title": "Mon Métier Rêvé : Ingénieur Mécanique & Mécanicien de Pointe",
+    "subtitle": "Comprendre chaque pièce, chaque force, chaque moteur.",
+    "description": "Depuis toujours, j'aime démonter, comprendre comment les mécanismes s'articulent et comment fonctionne un moteur à explosion, un turbo, une boîte de vitesses ou une transmission. Mon objectif est de combiner cette passion des machines réelles avec la rigueur scientifique et informatique pour concevoir, optimiser et préparer des véhicules et systèmes mécaniques.",
+    "pillars": [
+      {
+        "title": "Mécanique Moteur & Préparation",
+        "desc": "Étude approfondie du bloc moteur (pistons, bielles, vilebrequin, culasse, distribution), suralimentation (turbo/compresseur) et optimisation du rendement mécanique et thermique."
+      },
+      {
+        "title": "Conception & Modélisation 3D (CAO)",
+        "desc": "Concevoir des pièces sur ordinateur (SolidWorks, Fusion 360), calculer les contraintes de résistance des matériaux (RDM) et prototyper des assemblages mécaniques réels."
+      },
+      {
+        "title": "Diagnostic & Électronique Auto",
+        "desc": "Faire le lien entre la mécanique pure et la gestion électronique (cartographie moteur, capteurs, diagnostic OBD, télémétrie embarquée)."
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Mécanique & Moteurs (Thermique/Hybride)",
+      "level": 90,
+      "cat": "meca"
+    },
+    {
+      "name": "Logique CAO & Schémas Mécaniques",
+      "level": 85,
+      "cat": "meca"
+    },
+    {
+      "name": "C++ & Programmation Bas Niveau",
+      "level": 85,
+      "cat": "dev"
+    },
+    {
+      "name": "Mathématiques 3D & Vecteurs (WorldToScreen)",
+      "level": 88,
+      "cat": "dev"
+    },
+    {
+      "name": "Luau / Moteur Roblox",
+      "level": 96,
+      "cat": "dev"
+    },
+    {
+      "name": "Développement Web (HTML/CSS/JS)",
+      "level": 92,
+      "cat": "dev"
+    },
+    {
+      "name": "Méthodologie & Révisions DNB (3e1 ODS)",
+      "level": 96,
+      "cat": "school"
+    }
+  ],
+  "brevet_quiz": [
+    {
+      "subject": "Mathématiques (DNB ODS)",
+      "question": "Développer et réduire l'expression : (2x + 3)(2x - 3)",
+      "options": [
+        "4x² - 9",
+        "4x² + 9",
+        "4x² - 12x + 9",
+        "2x² - 9"
+      ],
+      "correct": 0,
+      "explanation": "Identité remarquable (a + b)(a - b) = a² - b². Résultat : 4x² - 9."
+    },
+    {
+      "subject": "Technologie & Mécanique (DNB ODS)",
+      "question": "Quel mécanisme permet de transformer un mouvement de rotation continue en translation alternative dans un moteur à pistons ?",
+      "options": [
+        "Le système bielle-manivelle",
+        "Le train d'engrenages épicycloïdal",
+        "La courroie crantée",
+        "Le différentiel mécanique"
+      ],
+      "correct": 0,
+      "explanation": "Le système bielle-manivelle est le composant central d'un moteur thermique reliant le piston au vilebrequin pour transformer la poussée linéaire en rotation."
+    },
+    {
+      "subject": "Physique-Chimie (DNB ODS)",
+      "question": "Quelle est la formule correcte de l'énergie cinétique d'un véhicule de masse m roulant à la vitesse v ?",
+      "options": [
+        "Ec = 1/2 × m × v²",
+        "Ec = m × g × h",
+        "Ec = m × v",
+        "Ec = P × t"
+      ],
+      "correct": 0,
+      "explanation": "L'énergie cinétique est Ec = 1/2 × m × v² (en Joules). Si la vitesse double, l'énergie cinétique est quadruplée."
+    },
+    {
+      "subject": "Français (DNB ODS)",
+      "question": "Identifiez la fonction grammaticale de la proposition entre crochets : 'Qxyntra répare le moteur [parce qu'il adore la mécanique]'.",
+      "options": [
+        "Proposition subordonnée circonstancielle de cause",
+        "Proposition subordonnée relative",
+        "Proposition subordonnée complétive",
+        "Proposition indépendante juxtaposée"
+      ],
+      "correct": 0,
+      "explanation": "Introduite par 'parce que', cette proposition exprime la cause de l'action principale."
+    },
+    {
+      "subject": "Histoire-Géographie (DNB ODS)",
+      "question": "En quelle année a été signée la capitulation de l'Allemagne nazie marquant la fin de la Seconde Guerre mondiale en Europe ?",
+      "options": [
+        "8 mai 1945",
+        "11 novembre 1918",
+        "6 juin 1944",
+        "18 juin 1940"
+      ],
+      "correct": 0,
+      "explanation": "Le 8 mai 1945 marque la victoire des Alliés et la capitulation sans condition de l'Allemagne en Europe."
+    }
+  ],
+  "socials": {
+    "discord": "4gkp",
+    "roblox": "https://www.roblox.com/users/2525202052/profile",
+    "youtube": "https://www.youtube.com/@Qxyntrax",
+    "github": "https://github.com/Qyxntra"
+  },
+  "qxr_detailed": {
+    "name": "QXR External",
+    "icon": "qxr_icon.png",
+    "author": "Qxyntra (Codename: BMP)",
+    "platform": "Roblox (Windows 64-bit)",
+    "language": "C++ / Windows API",
+    "rendering": "DirectX / GDI Transparent Overlay (144 FPS)",
+    "summary": "Logiciel external complet développé de A à Z par Qxyntra à 14 ans, basé sur la lecture mémoire et un overlay graphique indépendant.",
+    "architecture_steps": [
+      {
+        "num": "01",
+        "title": "Capture du Processus & Handles Win32",
+        "desc": "Utilisation de CreateToolhelp32Snapshot et OpenProcess avec droits PROCESS_VM_READ pour ouvrir un accès en lecture seule à la mémoire vive de Roblox."
+      },
+      {
+        "num": "02",
+        "title": "Analyse des Offsets & Chaînes de Pointeurs",
+        "desc": "Calcul des adresses relatives à partir de l'image de base (RobloxPlayerBeta.exe) pour localiser la ViewMatrix, le DataModel, les entités et la caméra."
+      },
+      {
+        "num": "03",
+        "title": "Moteur Mathématique WorldToScreen (3D ➔ 2D)",
+        "desc": "Multiplication matricielle entre les coordonnées 3D du monde (X, Y, Z) et la matrice de vue 4x4 (ViewMatrix) pour projeter exactement les cibles en pixels 2D sur l'écran."
+      },
+      {
+        "num": "04",
+        "title": "Overlay Transparent & Click-Through",
+        "desc": "Création d'une fenêtre de rendu DirectX transparente (WS_EX_LAYERED | WS_EX_TRANSPARENT) superposée au jeu à 144 FPS sans voler le focus ni bloquer les clics du joueur."
+      },
+      {
+        "num": "05",
+        "title": "Bypass Total d'Hyperion (Byfron)",
+        "desc": "Contrairement aux cheats 'internals' qui injectent des DLL et se font bannir instantanément, QXR ne modifie aucun octet du jeu : il fonctionne 100% de l'extérieur."
+      }
+    ],
+    "modules": [
+      {
+        "name": "ESP Boxes 2D/3D",
+        "desc": "Boîtes englobantes dynamiques calculées selon la distance de la cible."
+      },
+      {
+        "name": "Tracers & Lignes de Visée",
+        "desc": "Lignes vectorielles tracées depuis le bas de l'écran vers les entités détectées."
+      },
+      {
+        "name": "Cercle de FOV Ajustable",
+        "desc": "Zone de ciblage visuelle réglable au pixel près avec rayon dynamique."
+      },
+      {
+        "name": "Player Info & Distance Tags",
+        "desc": "Affichage en direct des pseudos et de la distance en mètres."
+      },
+      {
+        "name": "Zero FPS Drop",
+        "desc": "Traitement multithread asynchrone pour préserver 100% des performances du PC."
+      }
+    ]
+  }
+}
